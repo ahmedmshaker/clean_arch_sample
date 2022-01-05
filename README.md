@@ -33,11 +33,9 @@ Run the docker image with localhost 1200 port. You can change to any other port 
 docker run -d -p 1200:80 --name rent_ready rent_ready_web
 ```
 ## for L10n Localization 
-i'm using [flutter_localizations]to handle dependency injection through the app and generate dependency classes.
+i'm using [flutter_localizations] and [Intl](https://pub.dev/packages/intl) to handle arb strings localization.
 
-i'm using [Intl](https://pub.dev/packages/intl) to handle arb strings localization.
-
-in order to use [Intl](https://pub.dev/packages/intl) you have to use 
+in order to use [Intl](https://pub.dev/packages/intl) you have to use  to generate localizations files
 ```bash
 flutter pub get
 ```
