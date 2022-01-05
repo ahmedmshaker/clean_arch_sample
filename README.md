@@ -73,15 +73,17 @@ flutter test
 ## Project screenshots
 <table>
   <tr>
-    <td><img src="readme_images/1.png" width=270 height=480></td>
-    <td><img src="readme_images/2.png" width=270 height=480></td>
-    <td><img src="readme_images/3.png" width=270 height=480></td>
+    <td><img src="readme_images/1.png" width=600 height=300></td>
+    <td><img src="readme_images/2.png" width=600 height=300></td>
   </tr>
 <tr>
-    <td><img src="readme_images/4.png" width=270 height=480></td>
-    <td><img src="readme_images/5.png" width=270 height=480></td>
-    <td><img src="readme_images/6.png" width=270 height=480></td>
+    <td><img src="readme_images/3.png" width=600 height=300></td>
+    <td><img src="readme_images/4.png" width=600 height=300></td>
   </tr>
+<tr>
+    <td><img src="readme_images/5.png" width=600 height=300></td>
+    <td><img src="readme_images/6.png" width=600 height=300></td>
+</tr>
 <tr>
     <td><img src="readme_images/7.png" width=270 height=480></td>
     <td><img src="readme_images/8.png" width=270 height=480></td>
