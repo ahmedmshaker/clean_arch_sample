@@ -40,6 +40,7 @@ in order to use [Intl](https://pub.dev/packages/intl) you have to use  to genera
 flutter pub get
 ```
 that's why i added [generate: true] in pubspec.yaml to generate the localization files under .dart_tool/flutter_gen
+you can find application strings files under [lib/l10n](lib/l10n)
 
 ##to run project unit test and widget test use
 ```bash
