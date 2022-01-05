@@ -43,6 +43,18 @@ flutter pub get
 ```
 that's why i added [generate: true] in pubspec.yaml to generate the localization files under .dart_tool/flutter_gen
 
+##to run project unit test and widget test use
+```bash
+flutter test
+```
 
-## task Architecture
-![Screenshot](architecture.png)
+
+## Project Architecture
+![Screenshot](readme_images/architecture.png)
+
+
+##Project screenshots
+![Screenshot](readme_images/1.png) ![Screenshot](readme_images/2.png) ![Screenshot](readme_images/3.png)
+![Screenshot](readme_images/4.png) ![Screenshot](readme_images/5.png) ![Screenshot](readme_images/6.png)
+![Screenshot](readme_images/7.png) ![Screenshot](readme_images/7.png) ![Screenshot](readme_images/9.png)
+![Screenshot](readme_images/10.png) 
