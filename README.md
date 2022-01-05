@@ -6,11 +6,11 @@ It's required as a part to pass all linting instructions so in order to check th
 flutter analyze
 ```
 ## Generate DI classes , retrofit with dio , mock classes
-we use [Injectable](https://pub.dev/packages/injectable) to handle dependency injection through the app and generate dependency classes.
+i'm using [Injectable](https://pub.dev/packages/injectable) to handle dependency injection through the app and generate dependency classes.
 
-we use [Retrofit](https://pub.dev/packages/retrofit) to handle APIs calls using Dio and generate dependency classes.
+i'm using [Retrofit](https://pub.dev/packages/retrofit) to handle APIs calls using Dio and generate dependency classes.
 
-we use [Mockito](https://pub.dev/packages/mockito) to generate Mocks for unit testing
+i'm using [Mockito](https://pub.dev/packages/mockito) to generate Mocks for unit testing
 
 ```bash
 flutter packages pub run build_runner build --delete-conflicting-outputs
