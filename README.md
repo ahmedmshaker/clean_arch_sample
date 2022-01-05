@@ -42,3 +42,7 @@ in order to use [Intl](https://pub.dev/packages/intl) you have to use
 flutter pub get
 ```
 that's why i added [generate: true] in pubspec.yaml to generate the localization files under .dart_tool/flutter_gen
+
+
+## task Architecture
+![Screenshot](architecture.png)
