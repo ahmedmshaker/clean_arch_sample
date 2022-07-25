@@ -17,7 +17,7 @@ class _$AccountsState extends AccountsState {
   final String error;
 
   factory _$AccountsState([void Function(AccountsStateBuilder)? updates]) =>
-      (new AccountsStateBuilder()..update(updates)).build();
+      (new AccountsStateBuilder()..update(updates))._build();
 
   _$AccountsState._(
       {required this.isLoading,
@@ -26,12 +26,12 @@ class _$AccountsState extends AccountsState {
       required this.error})
       : super._() {
     BuiltValueNullFieldError.checkNotNull(
-        isLoading, 'AccountsState', 'isLoading');
+        isLoading, r'AccountsState', 'isLoading');
     BuiltValueNullFieldError.checkNotNull(
-        accounts, 'AccountsState', 'accounts');
+        accounts, r'AccountsState', 'accounts');
     BuiltValueNullFieldError.checkNotNull(
-        listGridSwitchType, 'AccountsState', 'listGridSwitchType');
-    BuiltValueNullFieldError.checkNotNull(error, 'AccountsState', 'error');
+        listGridSwitchType, r'AccountsState', 'listGridSwitchType');
+    BuiltValueNullFieldError.checkNotNull(error, r'AccountsState', 'error');
   }
 
   @override
@@ -61,7 +61,7 @@ class _$AccountsState extends AccountsState {
 
   @override
   String toString() {
-    return (newBuiltValueToStringHelper('AccountsState')
+    return (newBuiltValueToStringHelper(r'AccountsState')
           ..add('isLoading', isLoading)
           ..add('accounts', accounts)
           ..add('listGridSwitchType', listGridSwitchType)
@@ -117,20 +117,22 @@ class AccountsStateBuilder
   }
 
   @override
-  _$AccountsState build() {
+  AccountsState build() => _build();
+
+  _$AccountsState _build() {
     final _$result = _$v ??
         new _$AccountsState._(
             isLoading: BuiltValueNullFieldError.checkNotNull(
-                isLoading, 'AccountsState', 'isLoading'),
+                isLoading, r'AccountsState', 'isLoading'),
             accounts: BuiltValueNullFieldError.checkNotNull(
-                accounts, 'AccountsState', 'accounts'),
+                accounts, r'AccountsState', 'accounts'),
             listGridSwitchType: BuiltValueNullFieldError.checkNotNull(
-                listGridSwitchType, 'AccountsState', 'listGridSwitchType'),
+                listGridSwitchType, r'AccountsState', 'listGridSwitchType'),
             error: BuiltValueNullFieldError.checkNotNull(
-                error, 'AccountsState', 'error'));
+                error, r'AccountsState', 'error'));
     replace(_$result);
     return _$result;
   }
 }
 
-// ignore_for_file: always_put_control_body_on_new_line,always_specify_types,annotate_overrides,avoid_annotating_with_dynamic,avoid_as,avoid_catches_without_on_clauses,avoid_returning_this,deprecated_member_use_from_same_package,lines_longer_than_80_chars,omit_local_variable_types,prefer_expression_function_bodies,sort_constructors_first,test_types_in_equals,unnecessary_const,unnecessary_new
+// ignore_for_file: always_put_control_body_on_new_line,always_specify_types,annotate_overrides,avoid_annotating_with_dynamic,avoid_as,avoid_catches_without_on_clauses,avoid_returning_this,deprecated_member_use_from_same_package,lines_longer_than_80_chars,no_leading_underscores_for_local_identifiers,omit_local_variable_types,prefer_expression_function_bodies,sort_constructors_first,test_types_in_equals,unnecessary_const,unnecessary_new,unnecessary_lambdas
